@@ -54,7 +54,7 @@ public class Enderpearlcooldown extends JavaPlugin implements Listener {
 
                     if (cooldownTime.containsKey(p.getName())) {
 
-                        p.sendMessage(ChatColor.YELLOW + "Pearl cooldown: " + ChatColor.RED + cooldownTime.get(p.getName()) + " seconds");
+                        p.sendMessage(ChatColor.Red + "ForFitFactionz: " + ChatColor.BLUE + cooldownTime.get(p.getName()) + " seconds");
 
                         p.updateInventory();
                         e.setCancelled(true);
